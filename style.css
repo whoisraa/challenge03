@@ -6,10 +6,111 @@ body {
 
 .bg {
     height: 100%;
-    width: 100%;
-    background-image: url("assets/main-bg.jpg");
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.img1 {
+    background-image: url("assets/main-bg.jpg");
+}
+
+.img2 {
+    background-image: url("assets/the-games-bg.jpg");
+}
+
+.img3 {
+    background-image: url("assets/features.jpg");
+}
+
+.img4 {
+    background-image: url("assets/requirements.png");
+}
+
+.img5 {
+    background-image: url("assets/top-score-bg.png");
+}
+
+.img6 {
+    background-image: url("assets/newsletter.png");
+}
+
+ul {
+    padding: 20px;
+}
+
+.navbar-brand,
+.the-story,
+li a:link,
+li a:visited,
+a:hover,
+p {
+    color: white !important;
+}
+
+.navbar-brand,
+li a:link,
+a:visited {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    margin-right: 50px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+li a:link,
+a:visited {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+.splash {
+    margin-top: 150px;
+}
+
+.h1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    position: absolute;
+    height: 50px;
+    left: 42%;
+    right: 42%;
+    top: 55%;
+    bottom: 30%;
+    padding-top: 1.2%;
+    padding-bottom: 2.6%;
+    background-color: #f9b23e;
+    border-radius: 4px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.story {
+    margin-top: 330px;
+}
+
+.the-story {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
 }
