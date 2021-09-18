@@ -11,30 +11,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous" async>
+  </script>
   <link rel="stylesheet" href="style.css">
   <title>Play Traditional Game</title>
 </head>
 
 <body>
   <header class="bg img1">
-    <nav class="navbar navbar-expand-lg bg-secondary bg-black bg-opacity-50" id="mainNav">
+    <nav class="navbar navbar-expand-md bg-secondary bg-black bg-opacity-50">
       <div class="container">
-        <a class="navbar-brand text-uppercase" href="#logo">logo</a>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <a class="navbrand navbar-brand text-uppercase" href="#logo">logo</a>
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav text-uppercase ms-5">
-            <li class="nav-item mx-lg-1"><a class="nav-link py-1 px-lg-4 rounded" href="#home">home</a></li>
-            <li class="nav-item mx-lg-1"><a class="nav-link py-1 px-lg-4 rounded" href="#work">work</a></li>
-            <li class="nav-item mx-lg-1"><a class="nav-link py-1 px-lg-4 rounded" href="#contact">contact</a>
+            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#home">home</a></li>
+            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#work">work</a></li>
+            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#contact">contact</a>
             </li>
-            <li class="nav-item mx-lg-1"><a class="nav-link py-1 px-lg-4 rounded" href="#about-me">about
+            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#about-me">about
                 me</a></li>
           </ul>
         </div>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav text-uppercase ms-auto">
-            <li class="nav-item mx-lg-1"><a class="nav-link py-1 px-lg-4 rounded" href="#sign-up">sign up</a>
+            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#sign-up">sign up</a>
             </li>
-            <li class="nav-item mx-lg-1"><a class="nav-link py-1 px-lg-4 rounded" href="#login">login</a>
+            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#login">login</a>
             </li>
           </ul>
         </div>
@@ -42,11 +45,11 @@
     </nav>
     <div class="content-1 text-center">
       <p class="text-title-1 h1 text-uppercase">play traditional game</p>
-      <p class="h3 my-lg-4">Experience new traditional game play</p>
-      <a href="#play" class="play btn btn-lg text-uppercase my-lg-4">play now</a>
+      <p class="h3 my-md-4">Experience new traditional game play</p>
+      <a href="#play" class="play-btn btn btn-md text-uppercase my-md-4">play now</a>
     </div>
     <div class="story text-center">
-      <a href="#story" class="the-story text-uppercase">
+      <a href="#the-games" class="story-text text-uppercase">
         the story
         <br>
         <img src="assets/scroll-down.svg" alt="">
@@ -54,14 +57,14 @@
     </div>
   </header>
 
-  <section class="bg img2">
+  <section class="bg img2" id="the-games">
     <div class="content-2 container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <p class="h3">What's so special?</p>
           <p class="text-title-2 h1 text-uppercase">the games</p>
         </div>
-        <div id="col-sm-4 carouselExampleIndicators py-lg-5" class="carousel slide" data-bs-ride="carousel">
+        <div id="col-md-4 carouselExampleIndicators py-md-5" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
@@ -69,26 +72,36 @@
               aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="rockpaper">
             </div>
             <div class="carousel-item">
-              <img src="assets/blankimage.jpg" class="d-block w-100" alt="blankimage">
+              <img src="assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="rockpaper">
             </div>
             <div class="carousel-item">
-              <img src="assets/blankimage.jpg" class="d-block w-100" alt="blankimage">
+              <img src="assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="rockpaper">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="rockpaper">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="rockpaper">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="" aria-hidden="true"><img src="assets/switch-left.svg" alt="switch-left"></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="" aria-hidden="true"><img src="assets/switch-right.svg" alt="switch-right"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -96,10 +109,87 @@
     </div>
   </section>
   <section class="bg img3">
-
+    <div class="content-3 container me-5">
+      <div class="row mb-5">
+        <div class="col-6 col-md-6"></div>
+        <div class="col-6 col-md-6 text-start">
+          <p class="h3">What's so special?</p>
+          <p class="text-title-3 h1 text-uppercase">features</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-6 text-end">
+          <img src="assets/ellipse.svg" alt="">
+        </div>
+        <div class="col-6 col-md-6">
+          <p class="h3 text-uppercase sub-title">traditional games</p>
+          <p>If you miss your childhood, we provide <br>many traditional games here</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-6 text-end">
+          <img src="assets/ellipse-outline.svg" alt="">
+        </div>
+        <div class="col-6 col-md-6">
+          <p class="h3 text-uppercase sub-title">game suit</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-6 text-end">
+          <img src="assets/ellipse-outline.svg" alt="">
+        </div>
+        <div class="col-6 col-md-6">
+          <p class="h3 text-uppercase sub-title">tbd</p>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="bg img4">
-
+    <div class="mycomputer text-center">
+      <p>Can my computer run this game?</p>
+    </div>
+    <div class="content-4 container">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-title-4 h1 text-uppercase">system</p>
+          <p class="text-title-4 h1 text-uppercase">requirements</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <table class="system table table-bordered border-dark bg-black bg-opacity-75">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="h3 text-uppercase sub-title">os:</p>
+                  <p>Windows 7 64-bit only <br>(No OSX support at this time)</p>
+                </td>
+                <td>
+                  <p class="h3 text-uppercase sub-title">processor:</p>
+                  <p>Intel Core 2 Duo @ 2.4 GHz or <br>AMD Athlon X2 @ 2.8 GHz</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="h3 text-uppercase sub-title">memory:</p>
+                  <p>4 GB RAM</p>
+                </td>
+                <td>
+                  <p class="h3 text-uppercase sub-title">storage:</p>
+                  <p>8 GB available space</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p class="h3 text-uppercase sub-title">graphics:</p>
+                  <p>NVIDIA GeForce GTX 660 2GB or <br>AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="bg img5">
 

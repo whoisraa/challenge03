@@ -5,9 +5,9 @@ body {
 }
 
 .bg {
-    list-style-position: inside;
     height: 100%;
     width: auto;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -41,8 +41,8 @@ ul {
     padding: 20px;
 }
 
-.navbar-brand,
-.the-story,
+.navbrand,
+.story-text,
 li a:link,
 li a:visited,
 a:hover,
@@ -50,14 +50,14 @@ p {
     color: white !important;
 }
 
-.navbar-brand,
+.navbrand,
 li a:link,
 a:visited {
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-brand {
+.navbrand {
     margin-right: 50px;
     font-size: 25px;
     letter-spacing: 5px;
@@ -74,11 +74,28 @@ p {
 }
 
 .content-1 {
-    margin-top: 150px;
+    top: 170px;
+    position: relative;
+    z-index: 1;
 }
 
 .content-2 {
-    padding-top: 200px;
+    margin-left: 300px;
+    top: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.content-3 {
+    height: 500px;
+    top: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.content-4 {
+    top: 170px;
+    position: relative;
     z-index: 1;
 }
 
@@ -96,6 +113,20 @@ p {
     z-index: 2;
 }
 
+.text-title-3 {
+    font-size: 56px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+}
+
+.text-title-4 {
+    font-size: 56px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+}
+
 .h3 {
     font-size: 24px;
     font-weight: normal;
@@ -103,11 +134,15 @@ p {
     z-index: 2;
 }
 
-.btn {
+.sub-title {
+    color: #f9b23e !important;
+}
+
+.play-btn {
     height: 50px;
     width: 270px;
-    padding-top: 1.2%;
-    padding-bottom: 2.6%;
+    padding-top: 1%;
+    padding-bottom: 2.4%;
     background-color: #f9b23e;
     border-radius: 4px;
     color: black;
@@ -117,19 +152,28 @@ p {
 }
 
 .story {
-    margin-top: 250px;
+    top: 390px;
+    position: relative;
     z-index: 2;
 }
 
-.the-story {
+.story-text {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
     z-index: 2;
 }
 
-.carousel,
-.slide {
+.carousel {
     height: 380px;
     width: 800px;
+}
+
+.mycomputer {
+    top: 100px;
+    position: relative;
+}
+
+.system {
+    width: 600px;
 }
