@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="assets/icon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,63 +18,61 @@
 </head>
 
 <body>
-  <header class="bg img1">
-    <nav class="navbar navbar-expand-md bg-secondary bg-black bg-opacity-50">
-      <div class="container">
-        <a class="navbrand navbar-brand text-uppercase" href="#logo">logo</a>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav text-uppercase ms-5">
-            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#home">home</a></li>
-            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#work">work</a></li>
-            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#contact">contact</a>
-            </li>
-            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#about-me">about
-                me</a></li>
-          </ul>
+  <main class="bg img1" id="main">
+    <header>
+      <nav class="navbar navbar-expand-md bg-secondary bg-black bg-opacity-50">
+        <div class="container">
+          <a class="navbrand navbar-brand text-uppercase" href="#logo">logo</a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav text-uppercase ms-5">
+              <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#main">home</a></li>
+              <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#work">work</a></li>
+              <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#contact">contact</a>
+              </li>
+              <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#about-me">about
+                  me</a></li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav text-uppercase ms-auto">
+              <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#sign-up">sign up</a>
+              </li>
+              <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#login">login</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav text-uppercase ms-auto">
-            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#sign-up">sign up</a>
-            </li>
-            <li class="nav-item mx-md-1"><a class="nav-link py-1 px-md-4 rounded" href="#login">login</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <div class="content-1 text-center">
       <p class="text-title-1 h1 text-uppercase">play traditional game</p>
       <p class="h3 my-md-4">Experience new traditional game play</p>
       <a href="#play" class="play-btn btn btn-md text-uppercase my-md-4">play now</a>
     </div>
     <div class="story text-center">
-      <a href="#the-games" class="story-text text-uppercase">
+      <a href="#about" class="story-text text-uppercase">
         the story
         <br>
         <img src="assets/scroll-down.svg" alt="">
       </a>
     </div>
-  </header>
+  </main>
 
-  <section class="bg img2" id="the-games">
+  <section class="bg img2" id="about">
     <div class="content-2 container">
       <div class="row">
         <div class="col-md-4">
           <p class="h3">What's so special?</p>
           <p class="text-title-2 h1 text-uppercase">the games</p>
         </div>
-        <div id="col-md-4 carouselExampleIndicators py-md-5" class="carousel slide" data-bs-ride="carousel">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-              aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-              aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -94,13 +91,11 @@
               <img src="assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="rockpaper">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
             <span class="" aria-hidden="true"><img src="assets/switch-left.svg" alt="switch-left"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
             <span class="" aria-hidden="true"><img src="assets/switch-right.svg" alt="switch-right"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -108,7 +103,7 @@
       </div>
     </div>
   </section>
-  <section class="bg img3">
+  <section class="bg img3" id="game-ft">
     <div class="content-3 container me-5">
       <div class="row mb-5">
         <div class="col-6 col-md-6"></div>
@@ -144,15 +139,14 @@
       </div>
     </div>
   </section>
-  <section class="bg img4">
+  <section class="bg img4" id="sys-req">
     <div class="mycomputer text-center">
       <p>Can my computer run this game?</p>
     </div>
     <div class="content-4 container">
       <div class="row">
         <div class="col-12">
-          <p class="text-title-4 h1 text-uppercase">system</p>
-          <p class="text-title-4 h1 text-uppercase">requirements</p>
+          <p class="text-title-4 h1 text-uppercase">system <br>requirements</p>
         </div>
       </div>
       <div class="row">
@@ -191,15 +185,143 @@
       </div>
     </div>
   </section>
-  <section class="bg img5">
+  <section class="bg img5" id="quotes">
+    <div class="content-5-1 container my-auto">
+      <div class="row mb-2">
+        <div class="col">
+          <p class="text-title-5 h1 text-uppercase">top scores</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>This top score from various games provided <br>on this platform</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="#see-more" class="see-more-btn btn btn-md my-md-4">see more</a>
+        </div>
+      </div>
+    </div>
+    <div class="content-5-2 container mx-auto me-5">
+      <div class="row align-self-end">
+        <div class="col-4">
+          <div class="avatar col-md-5">
+            <a href="#">
+              <!-- <img class="d-inline-block" src="assets/ellipse-orange.png" alt="orange"> -->
+              <img class="img-circle rounded-circle" src="assets/evan-lahti.jpg" alt="Evan Lahti">
+            </a>
+          </div>
 
+          <div class="testimonial-main col-md-7">
+            <p class="h4 media-heading"><a href="#evan">Evan Lahti</a></p>
+            <p class="testimony-body">PC Gamer</p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-self-center">
+        <div class="col-4"></div>
+      </div>
+      <div class="row align-self-end">
+        <div class="col-4"></div>
+      </div>
+    </div>
   </section>
-  <section class="bg img6">
+  <section class="bg img6" id="subscribe">
+    <div class="content-6 container me-5">
+      <div class="row-cols-3">
+        <div class="col-3">
+          <img src="assets/skull.png" alt="skull" width="300px" height="550px">
+        </div>
+        <div class="col"></div>
+        <div class="col">
+          <p class="h3">Want to stay in <br>touch?</p>
+        </div>
+      </div>
+      <div class="row-cols-3">
+        <div class="col"></div>
+        <div class="col">
+          <p class="text-title-6 h1 text-uppercase">newsletter <br>subscribe</p>
+        </div>
+      </div>
+      <div class="row-cols-3">
+        <div class="col-10"></div>
+        <div class="col-10">
+          <p>In order to start receiving our news, all you have to do is enter your email <br>address. Everything else
+            will be taken care of by us. We will send you emails <br>containing information about game. We don't spam.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7 form-floating">
+          <input type="email" class="email form-control bg-dark" id="floatingInput" placeholder="Your email address"
+            value="youremail@binar.co.id">
+          <label class="email-label" for="floatingInput">&nbsp; &nbsp; Your email address</label>
+        </div>
+        <div class="col-md-5">
+          <button class="subscribe-btn btn btn-md" type="submit">Subscribe now</button>
+        </div>
+      </div>
+    </div>
 
+    <footer class="footer">
+      <div class="content-footer container">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" aria-current="page" href="#">main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" href="#game-ft">game features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" href="#sys-req">system requirements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" href="#quotes">quotes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" href="https://www.facebook.com"><img
+                src="assets/facebook.svg" alt="facebook" aria-label="read more about facebook"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" href="https://www.twitter.com"><img
+                src="assets/twitter.svg" alt="" aria-label="read more about twitter"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" href="https://www.youtube.com"><img
+                src="assets/vector.svg" alt="" aria-label="read more about youtube"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase px-4 py-0" href="https://www.twitch.com"><img
+                src="assets/twitch.svg" alt="" aria-label="read more about twitch"></a>
+          </li>
+        </ul>
+        <hr class="bg-white">
+        <div class="">
+          <ul class="nav under-footer">
+            <li class="nav-item">
+              <p>&copy; 2018
+                Your
+                Games, Inc. All Rights
+                Reserved</p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link small text-uppercase px-1 py-0" href="#pp">privacy policy |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link small text-uppercase px-1 py-0" href="#tos">terms of services |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link small text-uppercase px-1 py-0" href="#coc">code of conduct</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </section>
-
-  <footer></footer>
-
 </body>
 
 </html>

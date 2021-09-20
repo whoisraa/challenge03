@@ -1,3 +1,4 @@
+/* core */
 html,
 body {
     height: 100%;
@@ -5,9 +6,11 @@ body {
 }
 
 .bg {
+    min-height: 500px;
     height: 100%;
     width: auto;
     position: relative;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -66,21 +69,16 @@ a:visited {
 li a:link,
 a:visited {
     font-size: 12px;
-    letter-spacing: 2px;
-}
-
-p {
-    letter-spacing: 2px;
 }
 
 .content-1 {
-    top: 170px;
+    top: 130px;
     position: relative;
     z-index: 1;
 }
 
 .content-2 {
-    margin-left: 300px;
+    margin-left: 100px;
     top: 200px;
     position: relative;
     z-index: 1;
@@ -94,9 +92,40 @@ p {
 }
 
 .content-4 {
-    top: 170px;
+    padding-left: 8vh;
+    top: 120px;
     position: relative;
     z-index: 1;
+}
+
+.content-5-1 {
+    padding-left: 100px;
+    top: 230px;
+    position: relative;
+    z-index: 1;
+}
+
+.content-5-2 {
+    width: 800px;
+    top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.content-6 {
+    height: 500px;
+    width: 45%;
+    top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.content-footer {
+    width: 80%;
+    top: 100px;
+    position: relative;
+    font-weight: normal;
+    letter-spacing: 2px;
 }
 
 .text-title-1 {
@@ -106,31 +135,26 @@ p {
     z-index: 2;
 }
 
-.text-title-2 {
+.text-title-2,
+.text-title-3,
+.text-title-4,
+.text-title-5,
+.text-title-6 {
     font-size: 56px;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 2;
 }
 
-.text-title-3 {
-    font-size: 56px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    z-index: 2;
-}
-
-.text-title-4 {
-    font-size: 56px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    z-index: 2;
+.h1 {
+    letter-spacing: 2px;
 }
 
 .h3 {
     font-size: 24px;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
     z-index: 2;
 }
 
@@ -138,7 +162,12 @@ p {
     color: #f9b23e !important;
 }
 
-.play-btn {
+/* ----------------------------------------------------- */
+
+/* important buttons */
+.play-btn,
+.see-more-btn,
+.subscribe-btn {
     height: 50px;
     width: 270px;
     padding-top: 1%;
@@ -152,7 +181,7 @@ p {
 }
 
 .story {
-    top: 390px;
+    top: 340px;
     position: relative;
     z-index: 2;
 }
@@ -164,16 +193,58 @@ p {
     z-index: 2;
 }
 
+/* about page (2) */
 .carousel {
     height: 380px;
     width: 800px;
 }
 
+.carousel-indicators [data-bs-target] {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #fff;
+}
+
+.active {
+    background: #fff !important;
+}
+
+.carousel-control-prev {
+    left: -70px;
+}
+
+.carousel-control-next {
+    right: -70px;
+}
+
+/* system requirements page (4) */
 .mycomputer {
     top: 100px;
     position: relative;
 }
 
 .system {
-    width: 600px;
+    height: 42vh;
+    width: 65vh;
+}
+
+/* newsletter page (6) */
+.email-label {
+    color: gray;
+}
+
+.email {
+    color: #f9b23e !important;
+    width: 300px;
+}
+
+.under-footer {
+    letter-spacing: normal;
+}
+
+.copyright {
+    padding-right: 520px;
+    color: gray !important;
 }
