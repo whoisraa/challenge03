@@ -45,7 +45,7 @@ ul {
 }
 
 .navbrand,
-.story-text,
+.text-story,
 li a:link,
 li a:visited,
 a:hover,
@@ -58,6 +58,7 @@ li a:link,
 a:visited {
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
 }
 
 .navbrand {
@@ -72,7 +73,7 @@ a:visited {
 }
 
 .content-1 {
-    top: 130px;
+    top: 180px;
     position: relative;
     z-index: 1;
 }
@@ -114,15 +115,16 @@ a:visited {
 
 .content-6 {
     height: 500px;
-    width: 45%;
+    width: 1000px;
     top: 100px;
     position: relative;
+    flex-wrap: nowrap;
     z-index: 1;
 }
 
 .content-footer {
-    width: 80%;
-    top: 100px;
+    width: 200%;
+    top: 50px;
     position: relative;
     font-weight: normal;
     letter-spacing: 2px;
@@ -131,7 +133,7 @@ a:visited {
 .text-title-1 {
     font-size: 80px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     z-index: 2;
 }
 
@@ -142,12 +144,12 @@ a:visited {
 .text-title-6 {
     font-size: 56px;
     font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     z-index: 2;
 }
 
 .h1 {
-    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h3 {
@@ -166,8 +168,7 @@ a:visited {
 
 /* important buttons */
 .play-btn,
-.see-more-btn,
-.subscribe-btn {
+.see-more-btn {
     height: 50px;
     width: 270px;
     padding-top: 1%;
@@ -180,13 +181,13 @@ a:visited {
     z-index: 2;
 }
 
-.story {
-    top: 340px;
+.btn-story {
+    top: 400px;
     position: relative;
     z-index: 2;
 }
 
-.story-text {
+.text-story {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
@@ -225,12 +226,21 @@ a:visited {
     position: relative;
 }
 
-.system {
+.sys-req {
     height: 42vh;
     width: 65vh;
 }
 
-/* newsletter page (6) */
+/* newsletter subscribe page (6) */
+
+.skull {
+    padding-left: 150px;
+}
+
+.email-form {
+    flex-wrap: nowrap;
+}
+
 .email-label {
     color: gray;
 }
@@ -238,13 +248,28 @@ a:visited {
 .email {
     color: #f9b23e !important;
     width: 300px;
+    border: none;
+}
+
+.subscribe-btn {
+    height: 50px;
+    width: 200px;
+    margin-top: 4px;
+    padding-top: 1%;
+    padding-bottom: 2.4%;
+    background-color: #f9b23e;
+    border-radius: 4px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 2;
 }
 
 .under-footer {
     letter-spacing: normal;
 }
 
-.copyright {
-    padding-right: 520px;
+.copyright>p {
+    padding-right: 58vh;
     color: gray !important;
 }

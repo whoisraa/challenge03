@@ -7,6 +7,7 @@
   <link rel="icon" type="image/x-icon" href="assets/icon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -49,8 +50,8 @@
       <p class="h3 my-md-4">Experience new traditional game play</p>
       <a href="#play" class="play-btn btn btn-md text-uppercase my-md-4">play now</a>
     </div>
-    <div class="story text-center">
-      <a href="#about" class="story-text text-uppercase">
+    <div class="btn-story text-center">
+      <a href="#about" class="text-story text-uppercase">
         the story
         <br>
         <img src="assets/scroll-down.svg" alt="">
@@ -151,7 +152,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <table class="system table table-bordered border-dark bg-black bg-opacity-75">
+          <table class="sys-req table table-bordered border-dark bg-black bg-opacity-75">
             <tbody>
               <tr>
                 <td>
@@ -228,99 +229,105 @@
     </div>
   </section>
   <section class="bg img6" id="subscribe">
-    <div class="content-6 container me-5">
-      <div class="row-cols-3">
-        <div class="col-3">
+    <!-- <div class="skull container">
+      <div class="row">
+        <div class="col">
           <img src="assets/skull.png" alt="skull" width="300px" height="550px">
         </div>
-        <div class="col"></div>
-        <div class="col">
+      </div>
+    </div> -->
+    <div class="content-6 container">
+      <div class="row">
+        <div class="col-6 skull">
+          <img src="assets/skull.png" alt="skull" width="300px" height="450px">
+        </div>
+        <div class="col-6">
           <p class="h3">Want to stay in <br>touch?</p>
-        </div>
-      </div>
-      <div class="row-cols-3">
-        <div class="col"></div>
-        <div class="col">
-          <p class="text-title-6 h1 text-uppercase">newsletter <br>subscribe</p>
-        </div>
-      </div>
-      <div class="row-cols-3">
-        <div class="col-10"></div>
-        <div class="col-10">
+          <p class="text-title-12 h1 text-uppercase">newsletter <br>subscribe</p>
           <p>In order to start receiving our news, all you have to do is enter your email <br>address. Everything else
             will be taken care of by us. We will send you emails <br>containing information about game. We don't spam.
           </p>
+          <div class="col-auto form-floating">
+            <input type="email" class="email form-control bg-dark" id="floatingInput" placeholder="Your email address"
+              value="youremail@binar.co.id">
+            <label class="email-label" for="floatingInput">Your email address</label>
+            <div class="col-auto">
+              <button class="subscribe-btn btn btn-md" type="submit">Subscribe now</button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+        <div class="col-12">
         </div>
       </div>
       <div class="row">
-        <div class="col-md-7 form-floating">
-          <input type="email" class="email form-control bg-dark" id="floatingInput" placeholder="Your email address"
-            value="youremail@binar.co.id">
-          <label class="email-label" for="floatingInput">&nbsp; &nbsp; Your email address</label>
-        </div>
-        <div class="col-md-5">
-          <button class="subscribe-btn btn btn-md" type="submit">Subscribe now</button>
+        <div class="col-12">
+          
         </div>
       </div>
-    </div>
+      <div class="row g-3 input-group email-form">
+        
+        </div>
+      </div> -->
+      </div>
 
-    <footer class="footer">
-      <div class="content-footer container">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" aria-current="page" href="#">main</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" href="#about">about</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" href="#game-ft">game features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" href="#sys-req">system requirements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" href="#quotes">quotes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" href="https://www.facebook.com"><img
-                src="assets/facebook.svg" alt="facebook" aria-label="read more about facebook"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" href="https://www.twitter.com"><img
-                src="assets/twitter.svg" alt="" aria-label="read more about twitter"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" href="https://www.youtube.com"><img
-                src="assets/vector.svg" alt="" aria-label="read more about youtube"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link small text-uppercase px-4 py-0" href="https://www.twitch.com"><img
-                src="assets/twitch.svg" alt="" aria-label="read more about twitch"></a>
-          </li>
-        </ul>
-        <hr class="bg-white">
-        <div class="">
-          <ul class="nav under-footer">
+      <footer class="footer">
+        <div class="content-footer container">
+          <ul class="nav justify-content-end">
             <li class="nav-item">
-              <p>&copy; 2018
-                Your
-                Games, Inc. All Rights
-                Reserved</p>
+              <a class="nav-link small text-uppercase px-4 py-0" aria-current="page" href="#">main</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link small text-uppercase px-1 py-0" href="#pp">privacy policy |</a>
+              <a class="nav-link small text-uppercase px-4 py-0" href="#about">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link small text-uppercase px-1 py-0" href="#tos">terms of services |</a>
+              <a class="nav-link small text-uppercase px-4 py-0" href="#game-ft">game features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link small text-uppercase px-1 py-0" href="#coc">code of conduct</a>
+              <a class="nav-link small text-uppercase px-4 py-0" href="#sys-req">system requirements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link small text-uppercase px-4 py-0" href="#quotes">quotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link small text-uppercase px-4 py-0" href="https://www.facebook.com"><img
+                  src="assets/facebook.svg" alt="facebook" aria-label="read more about facebook"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link small text-uppercase px-4 py-0" href="https://www.twitter.com"><img
+                  src="assets/twitter.svg" alt="" aria-label="read more about twitter"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link small text-uppercase px-4 py-0" href="https://www.youtube.com"><img
+                  src="assets/vector.svg" alt="" aria-label="read more about youtube"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link small text-uppercase px-4 py-0" href="https://www.twitch.com"><img
+                  src="assets/twitch.svg" alt="" aria-label="read more about twitch"></a>
             </li>
           </ul>
+          <hr class="bg-white">
+          <div class="">
+            <ul class="nav under-footer">
+              <li class="copyright nav-item">
+                <p>&copy; 2018
+                  Your
+                  Games, Inc. All Rights
+                  Reserved</p>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link small text-uppercase px-1 py-0" href="#pp">privacy policy |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link small text-uppercase px-1 py-0" href="#tos">terms of services |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link small text-uppercase px-1 py-0" href="#coc">code of conduct</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
   </section>
 </body>
 
